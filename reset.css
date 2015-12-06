@@ -1,0 +1,318 @@
+a{color:#4D4D4D}
+*{
+/*	transition:all .3s;
+-webkit-transition:all .3s;
+-moz-transition:all .3s;*/
+}
+.pad{
+	padding: 25px 0;
+}
+img{
+display: block;
+max-width: 100%;
+height: auto;
+}
+.breadcrumb{
+	padding: 8px 15px;
+margin-bottom: 20px;
+list-style: none;
+background-color: #222;
+border-radius: 0px;
+}
+.breadcrumb li a{
+	color: #fff;
+	text-transform: uppercase;
+}
+.breadcrumb li a:hover{
+	text-decoration: none;
+}
+.breadcrumb > li + li:before {
+color: #FFF;
+}
+
+/************************************/
+/************************************/
+
+.pagination {
+margin: 0px 0;
+border-radius: 0px;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+.pagination > li > a, .pagination > li > span {
+color: #4D4D4D;
+background-color: #fff;
+border: 1px solid #4D4D4D;
+padding: 10px 15px;
+
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+color: #fff;
+background-color: #4D4D4D;
+
+}
+
+
+/************************************/
+/************************************/
+
+.pager {
+margin: 0px 0;
+}
+.pager li > a, .pager li > span {
+padding: 5px 15px;
+background-color: #fff;
+border: 1px solid #000;
+border-radius: 0px;
+color: #222;
+}
+.pager li > a:hover, .pager li > a:focus {
+background-color: #000;
+color: #fff;
+}
+
+
+/********************************/
+/********************************/
+.btn{
+	border-radius: 0;
+	text-transform: uppercase;
+}
+/********************************/
+/********************************/
+.thumbnail { 
+padding: 10px; 
+border: 1px solid #858585;
+border-radius: 0px;
+}
+/********************************/
+/********************************/
+.progress {
+background-color: #FFFFFF;
+border-radius: 0px;
+}
+/********************************/
+/********************************/
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+color: #fff;
+background-color: #303030;
+border:1px solid #303030;
+}
+.list-group-item:first-child {
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+}
+.list-group-item:last-child {
+margin-bottom: 0;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus {
+color: #FDFDFD;
+text-decoration: none;
+background-color: #303030;
+}
+.list-group-item {
+border: 1px solid #303030;
+}
+/********************************/
+/********************************/
+.panel-heading {
+padding: 10px 15px;
+border-bottom: 1px solid transparent;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+}
+.panel {
+border-radius: 0px;
+}
+.panel-footer {
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+
+
+/********************************/
+/********************************/
+
+.nav-tabs {
+border-bottom: 1px solid #919191;
+}
+.nav-tabs > li {
+margin-bottom: 0px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+color: #FFF;
+cursor: default;
+background-color: #978383;
+border: 0px solid #000;
+border-bottom-color: transparent;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+color: #FFF;
+cursor: default;
+background-color: #4D4D4D;
+border: 0px solid #000;
+border-bottom-color: transparent;
+}
+ 
+.nav-tabs > li > a {
+margin-right: 0px;
+line-height: 1.42857143;
+border: 0px solid transparent;
+border-radius: 0;
+color: #4D4D4D
+}
+.nav > li > a:hover, .nav > li > a:focus {
+text-decoration: none;
+background-color: #4D4D4D;
+color: #fff;
+}
+.nav-pills > li > a {
+border-radius: 0px;
+}
+.nav-pills > li + li {
+margin-left: 0px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+color: #fff;
+background-color: #4D4D4D;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+background-color: #4D4D4D;color: #fff;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+background-color: #4D4D4D;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+color: #FFFFFF;
+background-color: #4D4D4D;
+}
+
+
+/********************************/
+/********************************/
+@media (min-width: 768px){
+.navbar {
+border-radius: 0px;
+}
+}
+.navbar-default .navbar-nav > li > a {
+color: #4D4D4D;
+text-transform: uppercase;
+}
+.navbar {
+min-height: 25px;
+margin-bottom: 20px;
+border: 0px solid transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: #FFF;
+background-color: #4D4D4D;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #FFF;
+background-color: #4D4D4D;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+color: #FFF;
+background-color: #4D4D4D;
+}
+.dropdown-menu {border-radius: 0px}
+@media (min-width: 768px){
+.navbar-nav > li > a {
+/*padding: 10px 15px;*/
+}
+}
+
+/***********************************/
+/***********************************/
+/***********************************/
+.table tr th{
+	text-transform: uppercase;
+	color: #fff
+}
+.table tr td{color: #fff}
+.table > tbody > tr:nth-of-type(odd) {
+background-color: #4D4D4D;
+}
+.table > tbody > tr:nth-of-type(even) {
+background-color: #DBDBDB;
+}
+.table > tbody > tr:nth-of-type(even) td{
+color: #4D4D4D
+}
+/***********************************/
+/***********************************/
+/***********************************/
+.form-control {
+border-radius: 0px;
+}
+.form-control:focus {
+border-color: #4D4D4D;
+outline: 0;
+-webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075), 0 0 0px rgba(102, 175, 233, 0.6);
+box-shadow: inset 0 0px 0px rgba(0,0,0,.075), 0 0 0px rgba(102, 175, 233, .6);
+}
+.input-group-addon {
+background-color: #FFF;
+border: 1px solid #ccc;
+border-radius: 0px;
+}
+/***********************************/
+/***********************************/
+/***********************************/
+.modal-content {
+border-radius: 0px;
+}
+.modal-open .modal {
+background-color: rgba(255, 255, 255, 0.27);
+}
+.modal-header,.modal-footer {
+padding: 5px 15px;
+}
+/***********************************/
+/***********************************/
+/***********************************/
+.tab-content > .tab-pane {
+padding: 10px;
+}
+.tab-content {
+background: rgb(240, 240, 240);
+}
+/***********************************/
+/***********************************/
+/***********************************/
+.panel-group .panel {
+border-radius: 0px;
+}
+.panel {
+margin-bottom: 20px;
+background-color: #fff;
+border: 0px solid transparent;
+}
+
+
+/***********************************/
+/***********************************/
+/***********************************/
+
+.carousel-inner .item img{
+	width: 100%;
+}
+.carousel-inner .item{height: 300px;}
+.carousel-control {
+width: 0;
+}
+.carousel-control.left {
+	left:5%;
+}
+.carousel-control.right {
+	right:5%;
+}
